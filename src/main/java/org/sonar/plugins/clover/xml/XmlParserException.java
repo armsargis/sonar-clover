@@ -17,16 +17,26 @@
  * License along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02
  */
-package org.sonar.plugins.clover;
+package org.sonar.plugins.clover.xml;
 
-import org.junit.Test;
+public class XmlParserException extends RuntimeException {
 
-import static org.fest.assertions.Assertions.assertThat;
+    public XmlParserException() {
+    }
 
-public class CloverPluginTest {
+    public XmlParserException(String message) {
+        super(message);
+    }
 
-    @Test
-    public void test_getExtensions() {
-        assertThat(new CloverPlugin().getExtensions()).hasSize(1);
+    public XmlParserException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public XmlParserException(Throwable cause) {
+        super(cause);
+    }
+
+    public XmlParserException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
     }
 }

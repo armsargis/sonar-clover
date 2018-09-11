@@ -11,7 +11,7 @@
     <groupId>org.sonarsource.clover</groupId>
     <artifactId>sonar-clover-plugin</artifactId>
     <packaging>sonar-plugin</packaging>
-    <version>3.2-SNAPSHOT</version>
+    <version>3.2</version>
 
     <name>Sonar Clover Plugin</name>
     <description>

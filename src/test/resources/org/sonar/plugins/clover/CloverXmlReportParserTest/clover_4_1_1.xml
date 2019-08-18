@@ -8,7 +8,7 @@
             <metrics coveredelements="1" coveredconditionals="0" complexity="1" loc="8" coveredmethods="1" methods="1" elements="2" classes="1" ncloc="5"
                      statements="1" conditionals="0"
                      coveredstatements="1"/>
-            <file path="/clover-examples/parameterized-junit4-example/src/test/java/Square.java" name="Square.java">
+            <file path="/home/user/project/test/src/test/java/Square.java" name="Square.java">
                 <metrics coveredelements="1" coveredconditionals="0" complexity="1" loc="8" coveredmethods="1" methods="1" elements="2" classes="1" ncloc="5"
                          statements="1" conditionals="0" coveredstatements="1"/>
                 <class name="Square">
@@ -18,7 +18,7 @@
                 <line complexity="1" visibility="package" signature="compute(int) : int" num="5" count="0" type="method"/>
                 <line num="6" count="12" type="stmt"/>
             </file>
-            <file path="/clover-examples/parameterized-junit4-example/src/test/java/Omit.java" name="Square.java">
+            <file path="/home/user/project/test/src/test/java/Omit.java" name="Square.java">
                 <metrics coveredelements="0" coveredconditionals="0" complexity="12" loc="8" coveredmethods="0" methods="0" elements="0" classes="1" ncloc="5"
                          statements="0" conditionals="0" coveredstatements="0"/>
                 <class name="Omit">
@@ -34,7 +34,7 @@
         <package name="default-pkg">
             <metrics coveredelements="0" complexity="6" loc="67" methods="6" classes="4" statements="10" coveredconditionals="0" coveredmethods="0"
                      elements="16" ncloc="46" files="4" conditionals="0" coveredstatements="0"/>
-            <file path="/clover-examples/parameterized-junit4-example/src/test/java/RunJUnit4WithClover.java" name="RunJUnit4WithClover.java">
+            <file path="/home/user/project/test/src/test/java/RunJUnit4WithClover.java" name="RunJUnit4WithClover.java">
                 <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="14" coveredmethods="0" methods="1" elements="4" classes="1" ncloc="9"
                          statements="3" conditionals="0" coveredstatements="0"/>
                 <class name="RunJUnit4WithClover">
@@ -46,7 +46,7 @@
                 <line num="11" count="0" type="stmt"/>
                 <line num="12" count="0" type="stmt"/>
             </file>
-            <file path="/clover-examples/parameterized-junit4-example/src/test/java/RunJUnit4WithoutClover.java" name="RunJUnit4WithoutClover.java">
+            <file path="/home/user/project/test/src/test/java/RunJUnit4WithoutClover.java" name="RunJUnit4WithoutClover.java">
                 <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="12" coveredmethods="0" methods="1" elements="3" classes="1" ncloc="7"
                          statements="2" conditionals="0" coveredstatements="0"/>
                 <class name="RunJUnit4WithoutClover">
@@ -57,7 +57,7 @@
                 <line num="9" count="0" type="stmt"/>
                 <line num="10" count="0" type="stmt"/>
             </file>
-            <file path="/clover-examples/parameterized-junit4-example/src/test/java/SquareTest.java" name="SquareTest.java">
+            <file path="/home/user/project/test/src/test/java/SquareTest.java" name="SquareTest.java">
                 <metrics coveredelements="0" coveredconditionals="0" complexity="3" loc="33" coveredmethods="0" methods="3" elements="7" classes="1" ncloc="25"
                          statements="4" conditionals="0" coveredstatements="0"/>
                 <class name="SquareTest">

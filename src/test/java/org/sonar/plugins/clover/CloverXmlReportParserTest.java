@@ -43,7 +43,7 @@ public class CloverXmlReportParserTest {
         provider = new InputFileProvider(null) {
             @Override
             public InputFile fromPath(String path) {
-                return new TestInputFileBuilder("", path).setLines(1_000).build();
+                return new TestInputFileBuilder("", new File("/home/user/project/test"), new File(path)).setLines(1_000).build();
             }
         };
 
@@ -54,7 +54,7 @@ public class CloverXmlReportParserTest {
     public void parse_clover_2_3_2_Format() {
         reportParser.collect(TestUtils.getResource(getClass(), "clover_2_3_2.xml"));
 
-        final String testFileName = ":/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/ASTSensor.java";
+        final String testFileName = ":src/main/java/org/sonar/squid/sensors/ASTSensor.java";
 
         assertThat(context.lineHits(testFileName, 44)).isEqualTo(1);
         assertThat(context.conditions(testFileName, 157)).isEqualTo(2);
@@ -65,7 +65,7 @@ public class CloverXmlReportParserTest {
     public void parse_clover_2_6_0_Format() {
         reportParser.collect(TestUtils.getResource(getClass(), "clover_2_6_0.xml"));
 
-        final String testFileName = ":/Users/simon/projects/sonar/trunk/tests/integration/reference-projects/reference/src/main/java/org/sonar/samples/ClassUnderTest.java";
+        String testFileName = ":src/main/java/org/sonar/samples/ClassUnderTest.java";
         assertThat(context.lineHits(testFileName, 4)).isEqualTo(1);
         assertThat(context.conditions(testFileName, 9)).isNull();
         assertThat(context.coveredConditions(testFileName, 9)).isNull();
@@ -75,7 +75,7 @@ public class CloverXmlReportParserTest {
     public void parse_clover_3_2_2_Format() {
         reportParser.collect(TestUtils.getResource(getClass(), "clover_3_2_2.xml"));
 
-        final String testFileName = ":/home/benzonico/Development/SonarSource/clover-sample/src/main/java/SampleClass.java";
+        String testFileName = ":src/main/java/SampleClass.java";
         assertThat(context.lineHits(testFileName, 6)).isEqualTo(1);
         assertThat(context.conditions(testFileName, 6)).isEqualTo(2);
         assertThat(context.coveredConditions(testFileName, 6)).isEqualTo(1);
@@ -86,12 +86,12 @@ public class CloverXmlReportParserTest {
     public void parse_clover_4_1_1_Format() {
         reportParser.collect(TestUtils.getResource(getClass(), "clover_4_1_1.xml"));
 
-        final String testFileName = ":/clover-examples/parameterized-junit4-example/src/test/java/Square.java";
+        String testFileName = ":src/test/java/Square.java";
 
         assertThat(context.conditions(testFileName, 6)).isNull();
         assertThat(context.coveredConditions(testFileName, 6)).isNull();
 
-        final String omittedFileName = ":/clover-examples/parameterized-junit4-example/src/test/java/Omit.java";
+        String omittedFileName = ":src/test/java/Omit.java";
 
         assertThat(context.lineHits(omittedFileName, 6)).isNull();
         assertThat(context.conditions(omittedFileName, 6)).isNull();
@@ -104,7 +104,7 @@ public class CloverXmlReportParserTest {
         File xmlFile = TestUtils.getResource(getClass(), "coverageShouldBeZeroWhenNoElements/clover.xml");
         reportParser.collect(xmlFile);
 
-        final String testFileName = ":/sonar/sonar-commons/src/main/java/ch/hortis/sonar/model/MetricsClassType.java";
+        String testFileName = ":src/main/java/ch/hortis/sonar/model/MetricsClassType.java";
         assertThat(context.lineHits(testFileName, 1)).isNull();
         assertThat(context.conditions(testFileName, 1)).isNull();
         assertThat(context.coveredConditions(testFileName, 1)).isNull();

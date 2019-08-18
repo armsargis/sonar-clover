@@ -20,6 +20,14 @@
 package org.sonar.plugins.clover;
 
 import org.junit.Test;
+import org.sonar.api.Plugin.Context;
+import org.sonar.api.SonarEdition;
+import org.sonar.api.SonarQubeSide;
+import org.sonar.api.SonarRuntime;
+import org.sonar.api.config.internal.MapSettings;
+import org.sonar.api.internal.PluginContextImpl.Builder;
+import org.sonar.api.internal.SonarRuntimeImpl;
+import org.sonar.api.utils.Version;
 
 import static org.fest.assertions.Assertions.assertThat;
 
@@ -27,6 +35,18 @@ public class CloverPluginTest {
 
     @Test
     public void test_getExtensions() {
-        assertThat(new CloverPlugin().getExtensions()).hasSize(1);
+        MapSettings settings = new MapSettings().setProperty("foo", "bar");
+        SonarRuntime runtime = SonarRuntimeImpl.forSonarQube(
+                Version.create(7, 9), SonarQubeSide.SCANNER, SonarEdition.COMMUNITY
+        );
+
+        Context context = new Builder()
+                .setSonarRuntime(runtime)
+                .setBootConfiguration(settings.asConfig())
+                .build();
+
+        CloverPlugin cloverPlugin = new CloverPlugin();
+        cloverPlugin.define(context);
+        assertThat(context.getExtensions()).hasSize(1);
     }
 }

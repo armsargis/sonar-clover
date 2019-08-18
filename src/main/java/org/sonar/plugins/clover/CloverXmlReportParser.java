@@ -45,7 +45,7 @@ public class CloverXmlReportParser {
 
     private final StaxParser staxParser;
 
-    private SensorContext context;
+    private final SensorContext context;
     private final InputFileProvider inputFileProvider;
     private int files;
     private int unmatchedFile;
@@ -54,7 +54,7 @@ public class CloverXmlReportParser {
     CloverXmlReportParser(SensorContext context, InputFileProvider inputFileProvider) {
         this.context = context;
         this.inputFileProvider = inputFileProvider;
-        this.staxParser = new StaxParser();
+        staxParser = new StaxParser();
     }
 
     private static boolean reportExists(@Nullable File report) {
@@ -143,7 +143,7 @@ public class CloverXmlReportParser {
 
     private void saveHitsData(InputFile resource, SMInputCursor lineCursor) throws ParseException, XMLStreamException {
         if (resource != null) {
-            final NewCoverage coverage = context.newCoverage().onFile(resource);
+            NewCoverage coverage = context.newCoverage().onFile(resource);
             // cursor should be on the metrics element
             if (!canBeIncludedInFileMetrics(lineCursor)) {
                 // cursor should now be on the line cursor; exclude this file if there are no elements to cover
@@ -155,10 +155,10 @@ public class CloverXmlReportParser {
                 if (isClass(lineCursor)) {
                     continue;
                 }
-                final int lineId = Integer.parseInt(lineCursor.getAttrValue("num"));
+                int lineId = Integer.parseInt(lineCursor.getAttrValue("num"));
                 String count = lineCursor.getAttrValue("count");
                 if (StringUtils.isNotBlank(count)) {
-                    final int hits = Integer.parseInt(count);
+                    int hits = Integer.parseInt(count);
                     coverage.lineHits(lineId, hits);
                 } else {
                     int trueCount = (int) ParsingUtils.parseNumber(lineCursor.getAttrValue("truecount"));

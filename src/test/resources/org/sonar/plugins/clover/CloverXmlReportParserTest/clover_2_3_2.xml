@@ -6,7 +6,7 @@
     <package name="org.sonar.squid.sensors">
       <metrics coveredelements="425" coveredconditionals="107" ncloc="628" statements="253" loc="1091" complexity="167" files="15" conditionals="122" coveredstatements="246"
                coveredmethods="72" methods="73" classes="16" elements="448"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/ASTSensor.java" name="ASTSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/ASTSensor.java" name="ASTSensor.java">
         <metrics coveredelements="75" coveredconditionals="13" conditionals="18" ncloc="128" statements="42" coveredmethods="25" coveredstatements="37" loc="184" methods="26"
                  classes="1" complexity="37" elements="86"/>
         <class name="ASTSensor">
@@ -91,7 +91,7 @@
         <line num="178" signature="equals(Object) : boolean" type="method" complexity="1" count="1"/>
         <line num="180" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/PublicApiSensor.java" name="PublicApiSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/PublicApiSensor.java" name="PublicApiSensor.java">
         <metrics coveredelements="17" coveredconditionals="6" conditionals="6" ncloc="28" statements="9" coveredmethods="2" coveredstatements="9" loc="56" methods="2" classes="1"
                  complexity="9" elements="17"/>
         <class name="PublicApiSensor">
@@ -112,7 +112,7 @@
         <line falsecount="1" num="50" type="cond" truecount="1"/>
         <line num="51" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/StatementSensor.java" name="StatementSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/StatementSensor.java" name="StatementSensor.java">
         <metrics coveredelements="47" coveredconditionals="10" conditionals="10" ncloc="63" statements="34" coveredmethods="5" coveredstatements="32" loc="124" methods="5"
                  classes="1" complexity="19" elements="49"/>
         <class name="StatementSensor">
@@ -164,7 +164,7 @@
         <line num="120" type="stmt" count="1"/>
         <line num="122" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/PackageSensor.java" name="PackageSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/PackageSensor.java" name="PackageSensor.java">
         <metrics coveredelements="18" coveredconditionals="4" conditionals="4" ncloc="27" statements="11" coveredmethods="3" coveredstatements="11" loc="53" methods="3" classes="1"
                  complexity="5" elements="18"/>
         <class name="PackageSensor">
@@ -188,7 +188,7 @@
         <line num="49" type="stmt" count="1"/>
         <line num="51" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/MethodSensor.java" name="MethodSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/MethodSensor.java" name="MethodSensor.java">
         <metrics coveredelements="36" coveredconditionals="8" conditionals="10" ncloc="51" statements="23" coveredmethods="5" coveredstatements="23" loc="79" methods="5"
                  classes="1" complexity="10" elements="38"/>
         <class name="MethodSensor">
@@ -229,7 +229,7 @@
         <line num="74" type="stmt" count="1"/>
         <line num="77" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/AccessorSensor.java" name="AccessorSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/AccessorSensor.java" name="AccessorSensor.java">
         <metrics coveredelements="103" coveredconditionals="34" conditionals="42" ncloc="116" statements="58" coveredmethods="11" coveredstatements="58" loc="151" methods="11"
                  classes="1" complexity="39" elements="111"/>
         <class name="AccessorSensor">
@@ -327,7 +327,7 @@
         <line num="147" signature="isAstType(AST,int) : boolean" type="method" complexity="1" count="1"/>
         <line num="148" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/FileSensor.java" name="FileSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/FileSensor.java" name="FileSensor.java">
         <metrics coveredelements="13" coveredconditionals="2" conditionals="2" ncloc="21" statements="8" coveredmethods="3" coveredstatements="8" loc="47" methods="3" classes="1"
                  complexity="4" elements="13"/>
         <class name="FileSensor">
@@ -346,7 +346,7 @@
         <line num="43" type="stmt" count="1"/>
         <line num="45" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/BaseCommentsSensor.java" name="BaseCommentsSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/BaseCommentsSensor.java" name="BaseCommentsSensor.java">
         <metrics coveredelements="26" coveredconditionals="8" conditionals="8" ncloc="37" statements="14" coveredmethods="4" coveredstatements="14" loc="65" methods="4" classes="2"
                  complexity="8" elements="26"/>
         <class name="BaseCommentsSensor">
@@ -379,7 +379,7 @@
         <line num="60" signature="getCommentLinesOnLineOfCode() : int" type="method" complexity="1" count="1"/>
         <line num="61" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/LocSensor.java" name="LocSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/LocSensor.java" name="LocSensor.java">
         <metrics coveredelements="2" coveredconditionals="0" conditionals="0" ncloc="7" statements="1" coveredmethods="1" coveredstatements="1" loc="29" methods="1" classes="1"
                  complexity="1" elements="2"/>
         <class name="LocSensor">
@@ -388,7 +388,7 @@
         <line num="26" signature="visitFile(DetailAST) : void" type="method" complexity="1" count="1"/>
         <line num="27" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/HeaderCommentSensor.java" name="HeaderCommentSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/HeaderCommentSensor.java" name="HeaderCommentSensor.java">
         <metrics coveredelements="22" coveredconditionals="6" conditionals="6" ncloc="33" statements="13" coveredmethods="3" coveredstatements="13" loc="60" methods="3" classes="1"
                  complexity="10" elements="22"/>
         <class name="HeaderCommentSensor">
@@ -415,7 +415,7 @@
         <line num="55" type="stmt" count="1"/>
         <line num="58" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/ClassSensor.java" name="ClassSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/ClassSensor.java" name="ClassSensor.java">
         <metrics coveredelements="11" coveredconditionals="2" conditionals="2" ncloc="22" statements="6" coveredmethods="3" coveredstatements="6" loc="48" methods="3" classes="1"
                  complexity="4" elements="11"/>
         <class name="ClassSensor">
@@ -432,7 +432,7 @@
         <line num="45" signature="leaveToken(DetailAST) : void" type="method" complexity="1" count="1"/>
         <line num="46" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/ComplexitySensor.java" name="ComplexitySensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/ComplexitySensor.java" name="ComplexitySensor.java">
         <metrics coveredelements="5" coveredconditionals="0" conditionals="0" ncloc="18" statements="3" coveredmethods="2" coveredstatements="3" loc="42" methods="2" classes="1"
                  complexity="2" elements="5"/>
         <class name="ComplexitySensor">
@@ -444,7 +444,7 @@
         <line num="39" type="stmt" count="1"/>
         <line num="40" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/CommentSensors.java" name="CommentSensors.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/CommentSensors.java" name="CommentSensors.java">
         <metrics coveredelements="9" coveredconditionals="0" conditionals="0" ncloc="20" statements="8" coveredmethods="1" coveredstatements="8" loc="45" methods="1" classes="1"
                  complexity="4" elements="9"/>
         <class name="CommentSensors">
@@ -460,7 +460,7 @@
         <line num="39" type="stmt" count="1"/>
         <line num="42" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/BlankLineSensor.java" name="BlankLineSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/BlankLineSensor.java" name="BlankLineSensor.java">
         <metrics coveredelements="25" coveredconditionals="8" conditionals="8" ncloc="31" statements="15" coveredmethods="2" coveredstatements="15" loc="57" methods="2" classes="1"
                  complexity="9" elements="25"/>
         <class name="BlankLineSensor">
@@ -489,7 +489,7 @@
         <line falsecount="1" num="50" type="cond" truecount="1"/>
         <line num="51" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/sensors/BranchSensor.java" name="BranchSensor.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/sensors/BranchSensor.java" name="BranchSensor.java">
         <metrics coveredelements="16" coveredconditionals="6" conditionals="6" ncloc="26" statements="8" coveredmethods="2" coveredstatements="8" loc="51" methods="2" classes="1"
                  complexity="6" elements="16"/>
         <class name="BranchSensor">
@@ -513,7 +513,7 @@
     <package name="org.sonar.squid.utils">
       <metrics coveredelements="36" coveredconditionals="12" ncloc="52" statements="22" loc="113" complexity="13" files="2" conditionals="14" coveredstatements="21"
                coveredmethods="3" methods="4" classes="2" elements="40"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/utils/CountDistribution.java" name="CountDistribution.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/utils/CountDistribution.java" name="CountDistribution.java">
         <metrics coveredelements="21" coveredconditionals="7" conditionals="8" ncloc="30" statements="13" coveredmethods="2" coveredstatements="12" loc="58" methods="2" classes="1"
                  complexity="7" elements="23"/>
         <class name="CountDistribution">
@@ -540,7 +540,7 @@
         <line num="52" type="stmt" count="1"/>
         <line num="55" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/utils/FilesDiscovery.java" name="FilesDiscovery.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/utils/FilesDiscovery.java" name="FilesDiscovery.java">
         <metrics coveredelements="15" coveredconditionals="5" conditionals="6" ncloc="22" statements="9" coveredmethods="1" coveredstatements="9" loc="55" methods="2" classes="1"
                  complexity="6" elements="17"/>
         <class name="FilesDiscovery">
@@ -565,7 +565,7 @@
     <package name="org.sonar.squid.handlers">
       <metrics coveredelements="241" coveredconditionals="43" ncloc="412" statements="164" loc="644" complexity="91" files="6" conditionals="46" coveredstatements="152"
                coveredmethods="46" methods="48" classes="11" elements="258"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/handlers/JavaCheckstyleSquidBridge.java" name="JavaCheckstyleSquidBridge.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/handlers/JavaCheckstyleSquidBridge.java" name="JavaCheckstyleSquidBridge.java">
         <metrics coveredelements="40" coveredconditionals="8" conditionals="8" ncloc="73" statements="30" coveredmethods="6" coveredstatements="26" loc="109" methods="6"
                  classes="1" complexity="18" elements="44"/>
         <class name="JavaCheckstyleSquidBridge">
@@ -613,14 +613,14 @@
         <line num="102" type="stmt" count="1"/>
         <line num="106" type="stmt" count="0"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/handlers/Handler.java" name="Handler.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/handlers/Handler.java" name="Handler.java">
         <metrics coveredelements="0" coveredconditionals="0" conditionals="0" ncloc="8" statements="0" coveredmethods="0" coveredstatements="0" loc="32" methods="0" classes="1"
                  complexity="0" elements="0"/>
         <class name="Handler">
           <metrics coveredelements="0" coveredconditionals="0" conditionals="0" statements="0" coveredmethods="0" coveredstatements="0" methods="0" complexity="0" elements="0"/>
         </class>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/handlers/JavaBasicHandler.java" name="JavaBasicHandler.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/handlers/JavaBasicHandler.java" name="JavaBasicHandler.java">
         <metrics coveredelements="4" coveredconditionals="0" conditionals="0" ncloc="11" statements="2" coveredmethods="2" coveredstatements="2" loc="34" methods="2" classes="1"
                  complexity="2" elements="4"/>
         <class name="JavaBasicHandler">
@@ -631,7 +631,7 @@
         <line num="31" signature="getSingleLineCommentDelimiter() : List&lt;SingleLineCommentDelimiter&gt;" type="method" complexity="1" count="1"/>
         <line num="32" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/handlers/PlsqlBasicHandler.java" name="PlsqlBasicHandler.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/handlers/PlsqlBasicHandler.java" name="PlsqlBasicHandler.java">
         <metrics coveredelements="4" coveredconditionals="0" conditionals="0" ncloc="13" statements="2" coveredmethods="2" coveredstatements="2" loc="36" methods="2" classes="1"
                  complexity="2" elements="4"/>
         <class name="PlsqlBasicHandler">
@@ -642,7 +642,7 @@
         <line num="31" signature="getSingleLineCommentDelimiter() : List&lt;SingleLineCommentDelimiter&gt;" type="method" complexity="1" count="1"/>
         <line num="32" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/handlers/JavaCheckstyleHandler.java" name="JavaCheckstyleHandler.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/handlers/JavaCheckstyleHandler.java" name="JavaCheckstyleHandler.java">
         <metrics coveredelements="75" coveredconditionals="9" conditionals="10" ncloc="135" statements="53" coveredmethods="16" coveredstatements="50" loc="202" methods="17"
                  classes="3" complexity="24" elements="80"/>
         <class name="JavaCheckstyleHandler">
@@ -731,7 +731,7 @@
         <line num="198" type="stmt" count="1"/>
         <line num="200" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/handlers/BasicHandler.java" name="BasicHandler.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/handlers/BasicHandler.java" name="BasicHandler.java">
         <metrics coveredelements="118" coveredconditionals="26" conditionals="28" ncloc="172" statements="77" coveredmethods="20" coveredstatements="72" loc="231" methods="21"
                  classes="4" complexity="45" elements="126"/>
         <class name="BasicHandler">
@@ -865,7 +865,7 @@
     <package name="org.sonar.squid.entities">
       <metrics coveredelements="239" coveredconditionals="38" ncloc="366" statements="159" loc="502" complexity="99" files="2" conditionals="42" coveredstatements="141"
                coveredmethods="60" methods="70" classes="3" elements="271"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/entities/Measures.java" name="Measures.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/entities/Measures.java" name="Measures.java">
         <metrics coveredelements="155" coveredconditionals="20" conditionals="22" ncloc="235" statements="103" coveredmethods="41" coveredstatements="94" loc="321" methods="49"
                  classes="1" complexity="62" elements="174"/>
         <class name="Measures">
@@ -1036,7 +1036,7 @@
         <line num="317" signature="toString() : String" type="method" complexity="1" count="0"/>
         <line num="318" type="stmt" count="0"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/entities/Resource.java" name="Resource.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/entities/Resource.java" name="Resource.java">
         <metrics coveredelements="84" coveredconditionals="18" conditionals="20" ncloc="131" statements="56" coveredmethods="19" coveredstatements="47" loc="181" methods="21"
                  classes="2" complexity="37" elements="97"/>
         <class name="Resource">
@@ -1138,7 +1138,7 @@
     <package name="org.sonar.squid">
       <metrics coveredelements="20" coveredconditionals="2" ncloc="50" statements="14" loc="106" complexity="11" files="2" conditionals="2" coveredstatements="11"
                coveredmethods="7" methods="10" classes="2" elements="26"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/AnalysisException.java" name="AnalysisException.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/AnalysisException.java" name="AnalysisException.java">
         <metrics coveredelements="2" coveredconditionals="0" conditionals="0" ncloc="12" statements="3" coveredmethods="1" coveredstatements="1" loc="37" methods="3" classes="1"
                  complexity="3" elements="6"/>
         <class name="AnalysisException">
@@ -1151,7 +1151,7 @@
         <line num="33" signature="AnalysisException(Throwable)" type="method" complexity="1" count="0"/>
         <line num="34" type="stmt" count="0"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/main/java/org/sonar/squid/Squid.java" name="Squid.java">
+        <file path="/home/user/project/test/src/main/java/org/sonar/squid/Squid.java" name="Squid.java">
         <metrics coveredelements="18" coveredconditionals="2" conditionals="2" ncloc="38" statements="11" coveredmethods="6" coveredstatements="10" loc="69" methods="7" classes="1"
                  complexity="8" elements="20"/>
         <class name="Squid">
@@ -1186,7 +1186,7 @@
     <package name="org.sonar.squid.sensors">
       <metrics coveredelements="236" coveredconditionals="0" ncloc="425" statements="197" loc="761" complexity="39" files="13" conditionals="0" coveredstatements="197"
                coveredmethods="39" methods="39" classes="13" elements="236"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/ClassSensorTest.java" name="ClassSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/ClassSensorTest.java" name="ClassSensorTest.java">
         <metrics coveredelements="38" coveredconditionals="0" conditionals="0" ncloc="56" statements="34" coveredmethods="4" coveredstatements="34" loc="87" methods="4" classes="1"
                  complexity="4" elements="38"/>
         <class name="ClassSensorTest">
@@ -1232,7 +1232,7 @@
         <line num="83" type="stmt" count="1"/>
         <line num="84" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/CommentSensorTest.java" name="CommentSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/CommentSensorTest.java" name="CommentSensorTest.java">
         <metrics coveredelements="10" coveredconditionals="0" conditionals="0" ncloc="22" statements="8" coveredmethods="2" coveredstatements="8" loc="47" methods="2" classes="1"
                  complexity="2" elements="10"/>
         <class name="CommentSensorTest">
@@ -1249,7 +1249,7 @@
         <line num="42" type="stmt" count="1"/>
         <line num="43" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/AccessorSensorTest.java" name="AccessorSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/AccessorSensorTest.java" name="AccessorSensorTest.java">
         <metrics coveredelements="29" coveredconditionals="0" conditionals="0" ncloc="47" statements="25" coveredmethods="4" coveredstatements="25" loc="74" methods="4" classes="1"
                  complexity="4" elements="29"/>
         <class name="AccessorSensorTest">
@@ -1286,7 +1286,7 @@
         <line num="71" type="stmt" count="1"/>
         <line num="72" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/NclocSensorTest.java" name="NclocSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/NclocSensorTest.java" name="NclocSensorTest.java">
         <metrics coveredelements="19" coveredconditionals="0" conditionals="0" ncloc="33" statements="16" coveredmethods="3" coveredstatements="16" loc="57" methods="3" classes="1"
                  complexity="3" elements="19"/>
         <class name="NclocSensorTest">
@@ -1313,7 +1313,7 @@
         <line num="54" type="stmt" count="1"/>
         <line num="55" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/ComplexitySensorTest.java" name="ComplexitySensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/ComplexitySensorTest.java" name="ComplexitySensorTest.java">
         <metrics coveredelements="11" coveredconditionals="0" conditionals="0" ncloc="25" statements="8" coveredmethods="3" coveredstatements="8" loc="50" methods="3" classes="1"
                  complexity="3" elements="11"/>
         <class name="ComplexitySensorTest">
@@ -1331,7 +1331,7 @@
         <line num="47" type="stmt" count="1"/>
         <line num="48" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/BlankLineSensorTest.java" name="BlankLineSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/BlankLineSensorTest.java" name="BlankLineSensorTest.java">
         <metrics coveredelements="11" coveredconditionals="0" conditionals="0" ncloc="25" statements="8" coveredmethods="3" coveredstatements="8" loc="51" methods="3" classes="1"
                  complexity="3" elements="11"/>
         <class name="BlankLineSensorTest">
@@ -1349,7 +1349,7 @@
         <line num="47" type="stmt" count="1"/>
         <line num="48" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/LocSensorTest.java" name="LocSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/LocSensorTest.java" name="LocSensorTest.java">
         <metrics coveredelements="6" coveredconditionals="0" conditionals="0" ncloc="18" statements="4" coveredmethods="2" coveredstatements="4" loc="42" methods="2" classes="1"
                  complexity="2" elements="6"/>
         <class name="LocSensorTest">
@@ -1362,7 +1362,7 @@
         <line num="39" type="stmt" count="1"/>
         <line num="40" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/PublicApiSensorTest.java" name="PublicApiSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/PublicApiSensorTest.java" name="PublicApiSensorTest.java">
         <metrics coveredelements="50" coveredconditionals="0" conditionals="0" ncloc="70" statements="44" coveredmethods="6" coveredstatements="44" loc="100" methods="6"
                  classes="1" complexity="6" elements="50"/>
         <class name="PublicApiSensorTest">
@@ -1420,7 +1420,7 @@
         <line num="97" type="stmt" count="1"/>
         <line num="98" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/BrancheSensorTest.java" name="BrancheSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/BrancheSensorTest.java" name="BrancheSensorTest.java">
         <metrics coveredelements="9" coveredconditionals="0" conditionals="0" ncloc="23" statements="6" coveredmethods="3" coveredstatements="6" loc="47" methods="3" classes="1"
                  complexity="3" elements="9"/>
         <class name="BrancheSensorTest">
@@ -1436,7 +1436,7 @@
         <line num="44" type="stmt" count="1"/>
         <line num="45" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/MethodSensorTest.java" name="MethodSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/MethodSensorTest.java" name="MethodSensorTest.java">
         <metrics coveredelements="4" coveredconditionals="0" conditionals="0" ncloc="14" statements="3" coveredmethods="1" coveredstatements="3" loc="36" methods="1" classes="1"
                  complexity="1" elements="4"/>
         <class name="MethodSensorTest">
@@ -1447,7 +1447,7 @@
         <line num="33" type="stmt" count="1"/>
         <line num="34" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/FileSensorTest.java" name="FileSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/FileSensorTest.java" name="FileSensorTest.java">
         <metrics coveredelements="13" coveredconditionals="0" conditionals="0" ncloc="28" statements="11" coveredmethods="2" coveredstatements="11" loc="54" methods="2" classes="1"
                  complexity="2" elements="13"/>
         <class name="FileSensorTest">
@@ -1468,7 +1468,7 @@
         <line num="50" type="stmt" count="1"/>
         <line num="51" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/StatementSensorTest.java" name="StatementSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/StatementSensorTest.java" name="StatementSensorTest.java">
         <metrics coveredelements="5" coveredconditionals="0" conditionals="0" ncloc="15" statements="4" coveredmethods="1" coveredstatements="4" loc="38" methods="1" classes="1"
                  complexity="1" elements="5"/>
         <class name="StatementSensorTest">
@@ -1480,7 +1480,7 @@
         <line num="35" type="stmt" count="1"/>
         <line num="36" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/sensors/HeaderCommentSensorTest.java" name="HeaderCommentSensorTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/sensors/HeaderCommentSensorTest.java" name="HeaderCommentSensorTest.java">
         <metrics coveredelements="31" coveredconditionals="0" conditionals="0" ncloc="49" statements="26" coveredmethods="5" coveredstatements="26" loc="78" methods="5" classes="1"
                  complexity="5" elements="31"/>
         <class name="HeaderCommentSensorTest">
@@ -1523,7 +1523,7 @@
     <package name="org.sonar.squid.utils">
       <metrics coveredelements="13" coveredconditionals="0" ncloc="21" statements="12" loc="48" complexity="1" files="1" conditionals="0" coveredstatements="12" coveredmethods="1"
                methods="1" classes="1" elements="13"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/utils/CountDistributionTest.java" name="CountDistributionTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/utils/CountDistributionTest.java" name="CountDistributionTest.java">
         <metrics coveredelements="13" coveredconditionals="0" conditionals="0" ncloc="21" statements="12" coveredmethods="1" coveredstatements="12" loc="48" methods="1" classes="1"
                  complexity="1" elements="13"/>
         <class name="CountDistributionTest">
@@ -1548,7 +1548,7 @@
     <package name="org.sonar.squid.handlers">
       <metrics coveredelements="97" coveredconditionals="1" ncloc="163" statements="87" loc="255" complexity="13" files="3" conditionals="2" coveredstatements="85"
                coveredmethods="11" methods="11" classes="3" elements="100"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/handlers/JavaBasicHandlerTest.java" name="JavaBasicHandlerTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/handlers/JavaBasicHandlerTest.java" name="JavaBasicHandlerTest.java">
         <metrics coveredelements="8" coveredconditionals="0" conditionals="0" ncloc="19" statements="7" coveredmethods="1" coveredstatements="7" loc="43" methods="1" classes="1"
                  complexity="1" elements="8"/>
         <class name="JavaBasicHandlerTest">
@@ -1563,7 +1563,7 @@
         <line num="40" type="stmt" count="1"/>
         <line num="41" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/handlers/JavaCheckstyleHandlerTest.java" name="JavaCheckstyleHandlerTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/handlers/JavaCheckstyleHandlerTest.java" name="JavaCheckstyleHandlerTest.java">
         <metrics coveredelements="81" coveredconditionals="1" conditionals="2" ncloc="125" statements="73" coveredmethods="9" coveredstatements="71" loc="170" methods="9"
                  classes="1" complexity="11" elements="84"/>
         <class name="JavaCheckstyleHandlerTest">
@@ -1654,7 +1654,7 @@
         <line num="167" type="stmt" count="1"/>
         <line num="168" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/handlers/PlsqlBasicHandlerTest.java" name="PlsqlBasicHandlerTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/handlers/PlsqlBasicHandlerTest.java" name="PlsqlBasicHandlerTest.java">
         <metrics coveredelements="8" coveredconditionals="0" conditionals="0" ncloc="19" statements="7" coveredmethods="1" coveredstatements="7" loc="42" methods="1" classes="1"
                  complexity="1" elements="8"/>
         <class name="PlsqlBasicHandlerTest">
@@ -1673,7 +1673,7 @@
     <package name="org.sonar.squid.entities">
       <metrics coveredelements="161" coveredconditionals="0" ncloc="214" statements="144" loc="316" complexity="17" files="2" conditionals="0" coveredstatements="144"
                coveredmethods="17" methods="17" classes="2" elements="161"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/entities/ResourceTest.java" name="ResourceTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/entities/ResourceTest.java" name="ResourceTest.java">
         <metrics coveredelements="35" coveredconditionals="0" conditionals="0" ncloc="67" statements="28" coveredmethods="7" coveredstatements="28" loc="100" methods="7"
                  classes="1" complexity="7" elements="35"/>
         <class name="ResourceTest">
@@ -1716,7 +1716,7 @@
         <line num="97" type="stmt" count="1"/>
         <line num="98" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/entities/MeasuresTest.java" name="MeasuresTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/entities/MeasuresTest.java" name="MeasuresTest.java">
         <metrics coveredelements="126" coveredconditionals="0" conditionals="0" ncloc="147" statements="116" coveredmethods="10" coveredstatements="116" loc="216" methods="10"
                  classes="1" complexity="10" elements="126"/>
         <class name="MeasuresTest">
@@ -1854,7 +1854,7 @@
     <package name="org.sonar.squid">
       <metrics coveredelements="6" coveredconditionals="0" ncloc="21" statements="3" loc="73" complexity="3" files="2" conditionals="0" coveredstatements="3" coveredmethods="3"
                methods="3" classes="2" elements="6"/>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/SquidTestUtils.java" name="SquidTestUtils.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/SquidTestUtils.java" name="SquidTestUtils.java">
         <metrics coveredelements="2" coveredconditionals="0" conditionals="0" ncloc="7" statements="1" coveredmethods="1" coveredstatements="1" loc="32" methods="1" classes="1"
                  complexity="1" elements="2"/>
         <class name="SquidTestUtils">
@@ -1863,7 +1863,7 @@
         <line num="28" signature="getFile(String) : File" type="method" complexity="1" count="1"/>
         <line num="29" type="stmt" count="1"/>
       </file>
-      <file path="/Users/cmunger/dev/workspace/sonar/sonar-squid/src/test/java/org/sonar/squid/SquidTest.java" name="SquidTest.java">
+        <file path="/home/user/project/test/src/test/java/org/sonar/squid/SquidTest.java" name="SquidTest.java">
         <metrics coveredelements="4" coveredconditionals="0" conditionals="0" ncloc="14" statements="2" coveredmethods="2" coveredstatements="2" loc="41" methods="2" classes="1"
                  complexity="2" elements="4"/>
         <class name="SquidTest">

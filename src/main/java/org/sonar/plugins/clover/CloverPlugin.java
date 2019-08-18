@@ -19,23 +19,20 @@
  */
 package org.sonar.plugins.clover;
 
+import org.sonar.api.Plugin;
 import org.sonar.api.Properties;
 import org.sonar.api.Property;
-import org.sonar.api.SonarPlugin;
-
-import java.util.Arrays;
-import java.util.List;
 
 @Properties({
-    @Property(
-        key = CloverSensor.REPORT_PATH_PROPERTY,
-        name = "Report path",
-        description = "Absolute or relative path to XML report file.",
-        project = true, global = true)})
-public final class CloverPlugin extends SonarPlugin {
+        @Property(
+                key = CloverSensor.REPORT_PATH_PROPERTY,
+                name = "Report path",
+                description = "Absolute or relative path to XML report file.",
+                project = true, global = true)})
+public final class CloverPlugin implements Plugin {
 
-  @Override
-  public List getExtensions() {
-    return Arrays.asList(CloverSensor.class);
-  }
+    @Override
+    public void define(Context context) {
+        context.addExtension(CloverSensor.class);
+    }
 }

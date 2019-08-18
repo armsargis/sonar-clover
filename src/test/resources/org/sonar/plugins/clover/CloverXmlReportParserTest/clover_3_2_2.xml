@@ -6,7 +6,7 @@
     <package name="default-pkg">
       <metrics classes="1" methods="2" conditionals="4" files="1" ncloc="13" coveredstatements="4" coveredmethods="1" complexity="4" coveredconditionals="3" statements="6" loc="15"
                coveredelements="8" elements="12"/>
-      <file name="SampleClass.java" path="/home/benzonico/Development/SonarSource/clover-sample/src/main/java/SampleClass.java">
+        <file name="SampleClass.java" path="/home/user/project/test/src/main/java/SampleClass.java">
         <metrics classes="1" methods="2" conditionals="4" ncloc="13" coveredstatements="4" coveredmethods="1" complexity="4" coveredconditionals="3" statements="6" loc="15"
                  coveredelements="8" elements="12"/>
         <class name="SampleClass">
@@ -31,7 +31,7 @@
     <package name="default-pkg">
       <metrics classes="1" methods="1" conditionals="0" files="1" ncloc="8" coveredstatements="2" coveredmethods="1" complexity="1" coveredconditionals="0" statements="2" loc="10"
                coveredelements="3" elements="3"/>
-      <file name="SampleClassTest.java" path="/home/benzonico/Development/SonarSource/clover-sample/src/test/java/SampleClassTest.java">
+        <file name="SampleClassTest.java" path="/home/user/project/test/src/test/java/SampleClassTest.java">
         <metrics classes="1" methods="1" conditionals="0" ncloc="8" coveredstatements="2" coveredmethods="1" complexity="1" coveredconditionals="0" statements="2" loc="10"
                  coveredelements="3" elements="3"/>
         <class name="SampleClassTest">
